@@ -1,0 +1,62 @@
+// margin
+// margin: top right bottom left
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// text
+
+h1 {
+  font-size: 2.7rem;
+  line-height: 105%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secundary {
+  color: var(--color-secundary);
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Button
+
+.btn {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-black);
+  box-shadow: 4px 4px 0 var(--color-black);
+  color: var(--color-black);
+  display: block;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  max-width: 14rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
